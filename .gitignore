@@ -1,0 +1,10 @@
+alt_data/
+checkpoints/
+annots/
+annots_aligned/
+img/
+img_aligned/
+st/
+*.mp4
+report.ipynb
+requirements.txt
