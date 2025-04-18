@@ -61,29 +61,19 @@ Input Image → CNN Backbone → RPN → ROI Pooling → Text Classification & B
     matplotlib
 
 ### Install dependencies:
-
+```bash
 pip install -r requirements.txt
+```
 
 ### Dataset
 
 Prepare your dataset and configure paths in config.py.
-Training
 
+### Training
+```bash
 python train.py --config config.yaml
-
+```
 ### Inference
-
+```bash
 python infer.py
-
-## Project Structure
-
-.
-├── datasets/
-├── models/
-├── utils/
-├── train.py
-├── detect.py
-├── evaluate.py
-├── config.yaml
-├── requirements.txt
-└── README.md
+```
